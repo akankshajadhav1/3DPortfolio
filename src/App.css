@@ -323,6 +323,33 @@ footer {
   padding-top: 2rem;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-icon {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid transparent;
+}
+
+.social-icon:hover {
+  color: var(--accent-1);
+  background: rgba(236, 72, 153, 0.05);
+  border-color: rgba(236, 72, 153, 0.3);
+  transform: translateY(-2px);
+}
+
 footer p {
   font-size: 0.9rem;
 }

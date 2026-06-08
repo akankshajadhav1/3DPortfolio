@@ -76,7 +76,7 @@ export default function App() {
         <Sparkles count={200} scale={15} size={2} speed={0.4} opacity={0.6} color="#ffffff" />
 
         {/* Scrollable Context */}
-        <ScrollControls pages={4} damping={0.2} distance={1.5}>
+        <ScrollControls pages={6} damping={0.2} distance={1.5}>
 
           {/* 3D Elements that move with scroll */}
           <Scroll>
@@ -188,7 +188,7 @@ export default function App() {
                   </div>
                 </div>
 
-               <footer>
+                <footer>
                   <div className="social-links">
                     <a href="https://www.linkedin.com/in/akanksha-jadhav-4b6681262/" target="_blank" rel="noreferrer" className="social-icon">
                       <span>💼</span> LinkedIn

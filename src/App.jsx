@@ -188,7 +188,18 @@ export default function App() {
                   </div>
                 </div>
 
-                <footer>
+               <footer>
+                  <div className="social-links">
+                    <a href="https://www.linkedin.com/in/akanksha-jadhav-4b6681262/" target="_blank" rel="noreferrer" className="social-icon">
+                      <span>💼</span> LinkedIn
+                    </a>
+                    <a href="https://github.com/akankshajadhav1" target="_blank" rel="noreferrer" className="social-icon">
+                      <span>🐙</span> GitHub
+                    </a>
+                    <a href="https://twitter.com/akankshajadhav" target="_blank" rel="noreferrer" className="social-icon">
+                      <span>𝕏</span> Twitter
+                    </a>
+                  </div>
                   <p>© {new Date().getFullYear()} Akanksha Jadhav. Built with React Three Fiber.</p>
                 </footer>
               </section>
